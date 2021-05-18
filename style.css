@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&family=Satisfy&family=Black+Ops+One&family=Newsreader&display=swap');
+
+body {
+	background: rgb(62, 67, 74);
+	background: linear-gradient(0deg, rgba(62, 67, 74, 1) 0%, rgba(0, 0, 0, 1) 100%);
+	min-height: 100vh;
+	max-width: auto;
+	margin-top: -10px;
+}
+
+
+h1 {
+	font-size: 3rem;
+	color: rgb(205, 205, 224);
+	text-anchor: cornsilk;
+	width: 9em;
+	text-align: center;
+	font-family: "Black Ops One";
+	margin-left: 5px;
+	box-shadow: 2px 2px 3px rgb(226, 225, 218);
+	border-radius: 5px;
+}
+
+
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border: 2px solid cornsilk;
+	margin: 20px;
+	padding: 1%;
+	border-radius: 20px;
+	box-shadow: 20px 20px 10px;
+}
+
+h2 {
+	font-size: 2.5rem;
+	margin: 2px;
+	font-family: "Black Ops One";
+	text-transform: capitalize;
+	color: rgb(170, 186, 199);
+	text-decoration: underline rgb(170, 186, 199);
+}
+
+.align {
+	display: inline-flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.main {
+	width: 60%;
+	padding: 2%;
+}
+
+.para {
+	text-align: justify;
+	height: auto;
+	font-size: 1.3em;
+	color: rgb(217, 218, 214);
+	font-family: 'Newsreader', serif;
+	overflow-wrap: normal;
+}
+
+.side {
+	padding: 1%;
+}
+
+aside {
+	margin-top: 10%;
+}
+
+.image {
+	width: 300px;
+	height: auto;
+}
+
+footer {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	width: 90%;
+	height: auto;
+	margin: 5px;
+}
+
+.name {
+	font-family: 'Satisfy', cursive;
+	text-align: end;
+	font-size: 1.7rem;
+	text-transform: capitalize;
+	margin: 0 20px;
+	color: whitesmoke;
+}
+
+.icons {
+	text-align: end;
+	margin-right: 20px;
+}
+
+@media screen and (max-width: 960px) {
+	.main {
+		width: 85%;
+	}
+
+	aside {
+		margin: 0;
+	}
+
+}
+
+
+@media screen and (max-width:480px) {
+	h1 {
+		font-size: 10vw;
+		;
+	}
+
+	h2 {
+		font-size: 10vw;
+		;
+	}
+
+	.para {
+		font-size: 1.2em;
+	}
+
+	.image {
+		width: 50vw;
+	}
+}
+
+@media screen and (max-width:300px) {
+	.container {
+		margin: 5px;
+	}
+
+	.para {
+		font-size: 7vw;
+	}
+}
